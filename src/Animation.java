@@ -13,7 +13,14 @@ public class Animation {
 	  animation0();
 	  animation();
 	  animation2();
+	  animation2();
+	  animation2();
+	  animation2();
 	  animation3();
+	  animation3();
+	  animation3();
+	  animation3();
+	  animation4();
 	}
 
 	public void animation0(){
@@ -63,7 +70,7 @@ public class Animation {
 		}
 	
 	public void animation4(){
-		  int i=20;
+		  int i=22;
 		  for (int col= 3; col>=1; col--){
 		        for(int row=3; row>=1;row--){
 		        lightMatrix.getLight(col, row).setColor(new Color (i));
